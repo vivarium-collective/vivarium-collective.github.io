@@ -1,4 +1,10 @@
 theme: jekyll-theme-cayman
 title: Vivarium Collective
 description: Community-driven multiscale modeling
-show_downloads: true
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
