@@ -1,1 +1,0 @@
-Eran Agmon -- eagmon@stanford.edu
