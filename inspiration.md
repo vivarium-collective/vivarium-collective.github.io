@@ -1,1 +1,0 @@
-A vivarium, literally a “place of life,” is a controlled environment in which organisms can be studied. You might have encountered examples of vivaria like an aquarium or a terrarium. The Vivarium project provides a framework for creating a computational vivarium which can simulate colonies of cells in shared, dynamic environments.
