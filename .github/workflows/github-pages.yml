@@ -25,9 +25,10 @@ jobs:
         run: |
           cd _site
           touch .nojekyll
-          git init
+          git config --global init.defaultBranch main
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git init
           git add -A
           git commit -m "Jekyll build from commit $GITHUB_SHA by GitHub Action"
           git push -f "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git" main:gh-pages
