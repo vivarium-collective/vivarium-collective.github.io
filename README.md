@@ -28,8 +28,19 @@ The static HTML will be placed in `_site`.
 ### Serve Development Website
 
 ```console
-jekyll serve
+bundle exec jekyll serve
 ```
 
 The website will be served at http://localhost:4000. Note that this
 command implicitly runs `jekyll build`.
+
+### Deploy to Production
+
+To deploy the compiled HTML to GitHub Pages, execute:
+
+```console
+./deploy.sh
+```
+
+This will build the website and push the contents of `_site` to the
+`gh-pages` branch of the repository.
