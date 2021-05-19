@@ -21,11 +21,14 @@
 - name: Vivarium COBRA
   image: COBRApy.png
   text: >-
-    `COBRA_FBA` is a wrapper process for the COBRApy FBA library, which can be loaded with BiGG
-    models, and has been primarily used with BiGG model iAF1260b. The project includes
-    `CobraComposite`, which adds auxiliary processes `MassDeriver` and `VolumeDeriver` to make
-    a type of dynamic FBA. Other processes can constrain individual fluxes in `COBRA_FBA` through
-    the `flux_bounds` port, allowing for a type of integrative FBA.
+    <code>COBRA_FBA</code> is a wrapper process for the COBRApy FBA
+    library, which can be loaded with BiGG models, and has been
+    primarily used with BiGG model iAF1260b. The project includes
+    <code>CobraComposite</code>, which adds auxiliary processes
+    <code>MassDeriver</code> and <code>VolumeDeriver</code> to make a
+    type of dynamic FBA. Other processes can constrain individual fluxes
+    in <code>COBRA_FBA</code> through the <code>flux_bounds</code> port,
+    allowing for a type of integrative FBA.
   button_link: https://github.com/vivarium-collective/vivarium-cobra
   button_text: GitHub
 - name: Example 1
