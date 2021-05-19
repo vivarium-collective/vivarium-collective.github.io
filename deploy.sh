@@ -1,3 +1,5 @@
+set -e
+
 BUILD_DIR=_site
 USERNAME="vivarium-collective"
 DEPLOY_BRANCH=gh-pages
