@@ -1,0 +1,48 @@
+- name: Vivarium Core
+  image: vivarium-core.png
+  text: >-
+    This is the heart of the Vivarium Collective. Its modular interface
+    allows for easy integration of systems biology models, and its
+    simulation engine can execute the resulting composite model.
+  button_link: https://vivarium-core.readthedocs.io/en/latest/index.html
+  button_text: Documentation
+  header: Core Library
+- name: Vivarium Chemotaxis
+  image: vivarium-chemotaxis.png
+  text: >-
+    Vivarium Chemotaxis is a library for the multi-scale model of
+    chemotaxis described in
+    <a href="https://www.mdpi.com/1099-4300/22/10/1101"> Agmon, E.;
+    Spangler, R.K. A Multi-Scale Approach to Modeling E.  coli
+    Chemotaxis. Entropy 2020, 22, 1101</a>.
+  button_link: https://github.com/vivarium-collective/vivarium-chemotaxis
+  button_text: GitHub
+  header: Official Project
+- name: Example
+  image: vivarium-avatar.png
+  text: >-
+    Want to add your project to the collective? Open a pull request to
+    add your project! You can copy this card to get started.
+  button_link: https://example.com
+  button_text: Website
+- name: Example 2
+  image: vivarium-avatar.png
+  text: >-
+    Want to add your project to the collective? Open a pull request to
+    add your project! You can copy this card to get started.
+  button_link: https://example.com
+  button_text: Website
+- name: Example 3
+  image: vivarium-avatar.png
+  text: >-
+    Want to add your project to the collective? Open a pull request to
+    add your project! You can copy this card to get started.
+  button_link: https://example.com
+  button_text: Website
+- name: Example 4
+  image: vivarium-avatar.png
+  text: >-
+    Want to add your project to the collective? Open a pull request to
+    add your project! You can copy this card to get started.
+  button_link: https://example.com
+  button_text: Website

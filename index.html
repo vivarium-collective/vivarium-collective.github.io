@@ -1,3 +1,6 @@
+---
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,9 +10,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="style/main.css">
 
     <title>The Vivarium Collective</title>
   </head>
@@ -38,81 +40,27 @@
         </p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card">
-            <h5 class="card-header">Core Library</h5>
-            <img src="assets/card-imgs/vivarium-core.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Vivarium Core</h5>
-              <p class="card-text">
-                This is the heart of the Vivarium Collective. Its
-                modular interface allows for easy integration of systems
-                biology models, and its simulation engine can execute
-                the resulting composite model.
-              </p>
-              <a
-                href="https://vivarium-core.readthedocs.io/en/latest/index.html"
-                class="btn btn-primary"
-              >Documentation</a>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {% for card in site.data.cards %}
+          <div class="col">
+            <div class="card">
+              {% if card.header %}
+                <h5 class="card-header">Core Library</h5>
+              {% endif %}
+              <img src="assets/card-imgs/{{ card.image }}" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">{{ card.name }}</h5>
+                <p class="card-text">
+                  {{ card.text }}
+                </p>
+                <a
+                  href="{{ card.button_link }}"
+                  class="btn btn-primary"
+                  >{{ card.button_text }}</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <h5 class="card-header">Official Project</h5>
-            <img src="assets/card-imgs/vivarium-chemotaxis.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Vivarium Chemotaxis</h5>
-              <p class="card-text">
-                Vivarium Chemotaxis is a library for the multi-scale
-                model of chemotaxis described in
-                <a href="https://www.mdpi.com/1099-4300/22/10/1101">
-                  Agmon, E.; Spangler, R.K. A Multi-Scale Approach to
-                  Modeling E.  coli Chemotaxis. Entropy 2020, 22,
-                  1101
-                </a>.
-              </p>
-              <a
-                href="https://github.com/vivarium-collective/vivarium-chemotaxis"
-                class="btn btn-primary"
-              >GitHub</a>
-            </div>
-          </div>
-        </div>
-        <!--Below is an example card you can copy for your project. You
-        should add more `<div class="row">` tags as needed.-->
-        <div class="col-lg-4">
-          <div class="card">
-            <!-- You can uncomment the line below to add a header to
-              your card. This header is reserved for official projects.
-            <h5 class="card-header">Official Project</h5>
-            -->
-            <!--Add an image for your card to `assets/card-imgs/` and
-              update the `src` link below.-->
-            <img src="assets/card-imgs/vivarium-avatar.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <!--Replace `Example` with the title of your project.-->
-              <h5 class="card-title">Example</h5>
-              <!--Replace the example text below with a description of
-                your project. You can include basic HTML markup.-->
-              <p class="card-text">
-                Want to add your project to the collective? Open a pull
-                request to add your project! You can copy this card to
-                get started.
-              </p>
-              <!--Change the value of `href` to be a link to your
-                project. You should also change `Website` if your link
-                doesn't go to your website and instead goes to, for
-                example, your GitHub.-->
-              <a
-                href="https://example.com"
-                class="btn btn-primary"
-              >Website</a>
-            </div>
-          </div>
-        </div>
-        <!--End of example project.-->
+        {% endfor %}
       </div>
     </main>
 
