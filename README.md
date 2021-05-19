@@ -36,6 +36,10 @@ command implicitly runs `jekyll build`.
 
 ### Deploy to Production
 
+Note that you shouldn't have to do this in normal usage. GitHub Actions
+has been configured to deploy the latest code in `main` every night at
+midnight and upon every push to `main`.
+
 To deploy the compiled HTML to GitHub Pages, execute:
 
 ```console
