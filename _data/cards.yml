@@ -8,6 +8,17 @@
     - link: https://vivarium-core.readthedocs.io/en/latest/index.html
       text: Documentation
   header: Core Library
+- name: Vivarium template
+  image: template_repo.png
+  text: >-
+    This is a GitHub template repository, which can be used to start a
+    new Vivarium project. It includes the module structure with example
+    processes, composites, and experiments, and scripts to simplify the
+    release of the project on PyPI.
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-template
+      text: GitHub
+  header: GitHub Template
 - name: Vivarium Chemotaxis
   image: vivarium-chemotaxis.png
   text: >-
