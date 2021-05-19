@@ -18,7 +18,17 @@
   button_link: https://github.com/vivarium-collective/vivarium-chemotaxis
   button_text: GitHub
   header: Official Project
-- name: Example
+- name: Vivarium COBRA
+  image: COBRApy.png
+  text: >-
+    `COBRA_FBA` is a wrapper process for the COBRApy FBA library, which can be loaded with BiGG
+    models, and has been primarily used with BiGG model iAF1260b. The project includes
+    `CobraComposite`, which adds auxiliary processes `MassDeriver` and `VolumeDeriver` to make
+    a type of dynamic FBA. Other processes can constrain individual fluxes in `COBRA_FBA` through
+    the `flux_bounds` port, allowing for a type of integrative FBA.
+  button_link: https://github.com/vivarium-collective/vivarium-cobra
+  button_text: GitHub
+- name: Example 1
   image: vivarium-avatar.png
   text: >-
     Want to add your project to the collective? Open a pull request to
@@ -33,13 +43,6 @@
   button_link: https://example.com
   button_text: Website
 - name: Example 3
-  image: vivarium-avatar.png
-  text: >-
-    Want to add your project to the collective? Open a pull request to
-    add your project! You can copy this card to get started.
-  button_link: https://example.com
-  button_text: Website
-- name: Example 4
   image: vivarium-avatar.png
   text: >-
     Want to add your project to the collective? Open a pull request to
