@@ -8,3 +8,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+sass:
+  sass_dir: vendor/bundle/ruby/3.0.0/gems/bootstrap-5.0.1/assets/stylesheets/
+  style: compressed
