@@ -31,24 +31,10 @@
     allowing for a type of integrative FBA.
   button_link: https://github.com/vivarium-collective/vivarium-cobra
   button_text: GitHub
-- name: Example 1
+- name: Example 
   image: vivarium-avatar.png
   text: >-
-    Want to add your project to the collective? Open a pull request to
-    add your project! You can copy this card to get started.
-  button_link: https://example.com
-  button_text: Website
-- name: Example 2
-  image: vivarium-avatar.png
-  text: >-
-    Want to add your project to the collective? Open a pull request to
-    add your project! You can copy this card to get started.
-  button_link: https://example.com
-  button_text: Website
-- name: Example 3
-  image: vivarium-avatar.png
-  text: >-
-    Want to add your project to the collective? Open a pull request to
-    add your project! You can copy this card to get started.
+    Want to add your project to the collective? Open a pull request! You
+    can copy this card to get started.
   button_link: https://example.com
   button_text: Website
