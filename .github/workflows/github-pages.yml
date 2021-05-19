@@ -9,6 +9,7 @@ on:
 
 jobs:
   github-pages:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
