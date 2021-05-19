@@ -9,7 +9,7 @@
       text: Documentation
   header: Core Library
 - name: Vivarium template
-  image: template_repo.png
+  image: template-repo.png
   text: >-
     This is a GitHub template repository, which can be used to start a
     new Vivarium project. It includes the module structure with example
