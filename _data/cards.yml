@@ -4,8 +4,9 @@
     This is the heart of the Vivarium Collective. Its modular interface
     allows for easy integration of systems biology models, and its
     simulation engine can execute the resulting composite model.
-  button_link: https://vivarium-core.readthedocs.io/en/latest/index.html
-  button_text: Documentation
+  buttons:
+    - link: https://vivarium-core.readthedocs.io/en/latest/index.html
+      text: Documentation
   header: Core Library
 - name: Vivarium Chemotaxis
   image: vivarium-chemotaxis.png
@@ -15,8 +16,9 @@
     <a href="https://www.mdpi.com/1099-4300/22/10/1101"> Agmon, E.;
     Spangler, R.K. A Multi-Scale Approach to Modeling E.  coli
     Chemotaxis. Entropy 2020, 22, 1101</a>.
-  button_link: https://github.com/vivarium-collective/vivarium-chemotaxis
-  button_text: GitHub
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-chemotaxis
+      text: GitHub
   header: Official Project
 - name: Vivarium COBRA
   image: COBRApy.png
@@ -29,12 +31,16 @@
     type of dynamic FBA. Other processes can constrain individual fluxes
     in <code>COBRA_FBA</code> through the <code>flux_bounds</code> port,
     allowing for a type of integrative FBA.
-  button_link: https://github.com/vivarium-collective/vivarium-cobra
-  button_text: GitHub
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-cobra
+      text: GitHub
 - name: Example 
   image: vivarium-avatar.png
   text: >-
     Want to add your project to the collective? Open a pull request! You
     can copy this card to get started.
-  button_link: https://example.com
-  button_text: Website
+  buttons:
+    - link: https://example.com
+      text: Website
+    - link: https://example.com
+      text: Another Website

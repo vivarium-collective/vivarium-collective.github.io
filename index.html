@@ -51,10 +51,12 @@
                 <p class="card-text">
                   {{ card.text }}
                 </p>
-                <a
-                  href="{{ card.button_link }}"
-                  class="btn btn-primary"
-                  >{{ card.button_text }}</a>
+                {% for button in card.buttons %}
+                  <a
+                    href="{{ button.link }}"
+                    class="btn btn-primary"
+                    >{{ button.text }}</a>
+                {% endfor %}
               </div>
             </div>
           </div>
