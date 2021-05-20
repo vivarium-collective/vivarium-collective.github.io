@@ -18,18 +18,20 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-template
       text: GitHub
-  header: GitHub Template
+  header: Template Repository
 - name: Vivarium Chemotaxis
   image: vivarium-chemotaxis.png
   text: >-
     Vivarium Chemotaxis is a library for the multi-scale model of
-    chemotaxis described in
-    <a href="https://www.mdpi.com/1099-4300/22/10/1101"> Agmon, E.;
-    Spangler, R.K. A Multi-Scale Approach to Modeling E.  coli
-    Chemotaxis. Entropy 2020, 22, 1101</a>.
+    chemotaxis described in Agmon, E.; Spangler, R.K. (2020) A Multi-Scale
+    Approach to Modeling E. coli Chemotaxis. <i>Entropy</i>. It includes
+    processes for chemoreceptor clusters, membrane potential, and flagella
+    motor activity.
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-chemotaxis
       text: GitHub
+    - link: https://www.mdpi.com/1099-4300/22/10/1101
+      text: Paper
   header: Official Project
 - name: Vivarium COBRA
   image: COBRApy.png
@@ -44,6 +46,18 @@
     allowing for a type of integrative FBA.
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-cobra
+      text: GitHub
+- name: Vivarium Multibody
+  image: vivarium-multibody.png
+  text: >-
+    <code>Lattice</code> is a composite model of a spatial environment in
+    which these cells can grow, divide, and interact -- through physical
+    forces as well as by uptake and secretion of molecules in a shared
+    chemical milieu. It includes the processes <code>Multibody</code> for
+    solid-body multi-cell physics and <code>DiffusionField</code> for
+    diffusion of molecular concentrations in 2D fields.
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-multibody
       text: GitHub
 - name: Example 
   image: vivarium-avatar.png
