@@ -7,6 +7,8 @@
   buttons:
     - link: https://vivarium-core.readthedocs.io/en/latest/index.html
       text: Documentation
+    - link: https://github.com/vivarium-collective/vivarium-core
+      text: GitHub
   header: Core Library
 - name: Vivarium template
   image: template-repo.png
