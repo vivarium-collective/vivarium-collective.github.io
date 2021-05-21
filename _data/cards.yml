@@ -25,16 +25,25 @@
   image: vivarium-chemotaxis.png
   text: >-
     Vivarium Chemotaxis is a library for the multi-scale model of
-    chemotaxis described in Agmon, E.; Spangler, R.K. (2020) A Multi-Scale
-    Approach to Modeling E. coli Chemotaxis. <i>Entropy</i>. It includes
-    processes for chemoreceptor clusters, membrane potential, and flagella
-    motor activity.
+    chemotaxis described in <a href="https://www.mdpi.com/1099-4300/22/10/1101">
+    Agmon & Spangler (2020) </a>. Its processes include <code>ReceptorCluster</code>,
+    which models the activity of a chemoreceptor cluster, <code>MembranePotential</code>
+    based on internal and external ion concentrations, and <code>FlagellaMotor</code>,
+    which generates thrust and torque based on number of flagella and their motor states.
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-chemotaxis
       text: GitHub
     - link: https://www.mdpi.com/1099-4300/22/10/1101
       text: Paper
   header: Official Project
+- name: Vivarium Bioscrape
+  image: bioscrape-output.png
+  text: >-
+    Bioscrape (Bio-circuit Stochastic Single-cell Reaction Analysis and Parameter Estimation)
+    -- a Python package that supports deterministic and stochastic simulations.
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-bioscrape
+      text: GitHub
 - name: Vivarium COBRA
   image: COBRApy.png
   text: >-
