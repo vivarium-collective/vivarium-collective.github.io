@@ -1,4 +1,5 @@
-- name: interface and engine
+- header: Vivarium Core
+  name: Interface and Engine
   image: vivarium-core.png
   text: >-
     This is the heart of the Vivarium Collective. Its modular interface
@@ -9,11 +10,11 @@
       text: Documentation
     - link: https://github.com/vivarium-collective/vivarium-core
       text: GitHub
-  header: Vivarium Core
-- name: Multiscale model of E. coli chemotaxis
+- header: Vivarium Chemotaxis
+  name: Multiscale model of E. coli chemotaxis
   image: vivarium-chemotaxis.png
   text: >-
-    Vivarium Chemotaxis is a library for the model of
+    Vivarium Chemotaxis is a library for the model of <i>E. coli</i>
     chemotaxis described in <a href="https://www.mdpi.com/1099-4300/22/10/1101">
     Agmon & Spangler (2020) </a>. Its processes include <code>ReceptorCluster</code>,
     which models the activity of a chemoreceptor cluster, <code>MembranePotential</code>
@@ -24,8 +25,7 @@
       text: GitHub
     - link: https://www.mdpi.com/1099-4300/22/10/1101
       text: Paper
-  header: Vivarium Chemotaxis
-- name: Vivarium Multibody
+- header: Vivarium Multibody
   image: vivarium-multibody.png
   text: >-
     <code>Lattice</code> is a composite model of a spatial environment in
@@ -37,7 +37,7 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-multibody
       text: GitHub
-- name: Vivarium Bioscrape
+- header: Vivarium Bioscrape
   image: bioscrape-output.png
   text: >-
     Bioscrape (Bio-circuit Stochastic Single-cell Reaction Analysis and Parameter Estimation)
@@ -45,7 +45,7 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-bioscrape
       text: GitHub
-- name: Vivarium COBRA
+- header: Vivarium COBRA
   image: COBRApy.png
   text: >-
     <code>COBRA_FBA</code> is a wrapper process for the COBRApy FBA
@@ -59,7 +59,7 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-cobra
       text: GitHub
-- name: Vivarium template
+- header: Vivarium Project Template
   image: template-repo.png
   text: >-
     This is a template repository, which can be used to start a
@@ -69,7 +69,6 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-template
       text: GitHub
-  header: Vivarium Project Template
 - header: Your Project
   image: vivarium-avatar.png
   text: >-
