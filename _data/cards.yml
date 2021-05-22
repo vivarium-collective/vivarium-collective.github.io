@@ -1,4 +1,4 @@
-- name: Vivarium Core
+- name: interface and engine
   image: vivarium-core.png
   text: >-
     This is the heart of the Vivarium Collective. Its modular interface
@@ -9,22 +9,11 @@
       text: Documentation
     - link: https://github.com/vivarium-collective/vivarium-core
       text: GitHub
-  header: Core Library
-- name: Vivarium template
-  image: template-repo.png
-  text: >-
-    This is a template repository, which can be used to start a
-    new Vivarium project. It includes the module structure with example
-    processes, composites, and experiments, and scripts to simplify the
-    release of the project on PyPI.
-  buttons:
-    - link: https://github.com/vivarium-collective/vivarium-template
-      text: GitHub
-  header: Vivarium Project Template
-- name: Vivarium Chemotaxis
+  header: Vivarium Core
+- name: Multiscale model of E. coli chemotaxis
   image: vivarium-chemotaxis.png
   text: >-
-    Vivarium Chemotaxis is a library for the multi-scale model of
+    Vivarium Chemotaxis is a library for the model of
     chemotaxis described in <a href="https://www.mdpi.com/1099-4300/22/10/1101">
     Agmon & Spangler (2020) </a>. Its processes include <code>ReceptorCluster</code>,
     which models the activity of a chemoreceptor cluster, <code>MembranePotential</code>
@@ -35,7 +24,19 @@
       text: GitHub
     - link: https://www.mdpi.com/1099-4300/22/10/1101
       text: Paper
-  header: Official Project
+  header: Vivarium Chemotaxis
+- name: Vivarium Multibody
+  image: vivarium-multibody.png
+  text: >-
+    <code>Lattice</code> is a composite model of a spatial environment in
+    which these cells can grow, divide, and interact -- through physical
+    forces as well as by uptake and secretion of molecules in a shared
+    chemical milieu. It includes the processes <code>Multibody</code> for
+    solid-body multi-cell physics and <code>DiffusionField</code> for
+    diffusion of molecular concentrations in 2D fields.
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-multibody
+      text: GitHub
 - name: Vivarium Bioscrape
   image: bioscrape-output.png
   text: >-
@@ -58,19 +59,18 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-cobra
       text: GitHub
-- name: Vivarium Multibody
-  image: vivarium-multibody.png
+- name: Vivarium template
+  image: template-repo.png
   text: >-
-    <code>Lattice</code> is a composite model of a spatial environment in
-    which these cells can grow, divide, and interact -- through physical
-    forces as well as by uptake and secretion of molecules in a shared
-    chemical milieu. It includes the processes <code>Multibody</code> for
-    solid-body multi-cell physics and <code>DiffusionField</code> for
-    diffusion of molecular concentrations in 2D fields.
+    This is a template repository, which can be used to start a
+    new Vivarium project. It includes the module structure with example
+    processes, composites, and experiments, and scripts to simplify the
+    release of the project on PyPI.
   buttons:
-    - link: https://github.com/vivarium-collective/vivarium-multibody
+    - link: https://github.com/vivarium-collective/vivarium-template
       text: GitHub
-- name: Example 
+  header: Vivarium Project Template
+- header: Your Project
   image: vivarium-avatar.png
   text: >-
     Want to add your project to the collective? Open a pull request! You
@@ -78,5 +78,3 @@
   buttons:
     - link: https://example.com
       text: Website
-    - link: https://example.com
-      text: Another Website
