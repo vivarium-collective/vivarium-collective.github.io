@@ -15,8 +15,7 @@
   image: vivarium-chemotaxis.png
   text: >-
     Vivarium Chemotaxis is a library for the model of <i>E. coli</i>
-    chemotaxis described in <a href="https://www.mdpi.com/1099-4300/22/10/1101">
-    Agmon & Spangler (2020) </a>. Its processes include <code>ReceptorCluster</code>,
+    chemotaxis. Its processes include <code>ReceptorCluster</code>,
     which models the activity of a chemoreceptor cluster, <code>MembranePotential</code>
     based on internal and external ion concentrations, and <code>FlagellaMotor</code>,
     which generates thrust and torque based on number of flagella and their motor states.
