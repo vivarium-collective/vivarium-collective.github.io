@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" href="favicon.png"/>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="/favicon.svg"
@@ -82,7 +82,7 @@
                 {% for button in card.buttons %}
                   <a
                     href="{{ button.link }}"
-                    class="btn btn-primary"
+                    class="btn btn-secondary"
                     >{{ button.text }}</a>
                 {% endfor %}
               </div>
