@@ -58,6 +58,18 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-cobra
       text: GitHub
+- header: Convenience Kinetics
+  image: convenience_kinetics.png
+  text: >-
+    Convenience Kinetics is a generalized Michaelis-Menten-style enzyme
+    kinetics model, which can implement any enzymatic mechanism as a function
+    of the enzyme, substrates, cofactors, and competitors. This formulation
+    is especially useful for generating rate laws for arbitrary chemical networks.
+    <code>ConvenienceKinetics</code> is a process that takes stoichiometry and
+    kinetic rates as inputs, generates the rate laws, and runs them.
+  buttons:
+    - link: https://github.com/vivarium-collective/convenience-kinetics
+      text: GitHub
 - header: Vivarium Project Template
   image: template-repo.png
   text: >-
