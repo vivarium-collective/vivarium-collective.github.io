@@ -66,7 +66,7 @@
     of the enzyme, substrates, cofactors, and competitors. This formulation
     is especially useful for generating rate laws for arbitrary chemical networks.
     <code>ConvenienceKinetics</code> is a process that takes stoichiometry and
-    kinetic rates as inputs, generates the rate laws, and runs them.
+    kinetic rates as parameters, generates the rate laws, and runs them.
   buttons:
     - link: https://github.com/vivarium-collective/convenience-kinetics
       text: GitHub
