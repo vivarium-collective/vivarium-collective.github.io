@@ -10,7 +10,7 @@
       text: Documentation
     - link: https://github.com/vivarium-collective/vivarium-core
       text: GitHub
-- header: Vivarium Chemotaxis
+- header: Chemotaxis
   name: Multiscale model of E. coli chemotaxis
   image: vivarium-chemotaxis.png
   text: >-
@@ -24,7 +24,7 @@
       text: GitHub
     - link: https://www.mdpi.com/1099-4300/22/10/1101
       text: Paper
-- header: Vivarium Multibody
+- header: Multibody
   image: vivarium-multibody.png
   text: >-
     <code>Lattice</code> is a composite model of a spatial environment in
@@ -36,7 +36,7 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-multibody
       text: GitHub
-- header: Vivarium Bioscrape
+- header: Bioscrape
   image: bioscrape-output.png
   text: >-
     Bioscrape (Bio-circuit Stochastic Single-cell Reaction Analysis and Parameter Estimation)
@@ -44,7 +44,7 @@
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-bioscrape
       text: GitHub
-- header: Vivarium COBRA
+- header: COBRA
   image: COBRApy.png
   text: >-
     <code>COBRA_FBA</code> is a wrapper process for the COBRApy FBA
