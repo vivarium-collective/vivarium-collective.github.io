@@ -78,6 +78,8 @@
     Molecules diffuse by Brownian motion, react when they collide into each other,
     and interact with surfaces in a variety of realistic ways.
   buttons:
+    - link: http://www.smoldyn.org/index.html
+      text: Website
     - link: https://github.com/vivarium-collective/vivarium-smoldyn
       text: GitHub
 - header: Vivarium Project Template
