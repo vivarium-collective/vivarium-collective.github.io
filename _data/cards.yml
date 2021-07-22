@@ -70,6 +70,16 @@
   buttons:
     - link: https://github.com/vivarium-collective/convenience-kinetics
       text: GitHub
+- header: Smoldyn
+  image: smoldyn_banner.jpg
+  text: >-
+    Smoldyn is a particle-based spatial stochastic simulator. Molecules are
+    represented by point-like particles in 1-, 2-, or 3-dimensional continuous space.
+    Molecules diffuse by Brownian motion, react when they collide into each other,
+    and interact with surfaces in a variety of realistic ways.
+  buttons:
+    - link: https://github.com/vivarium-collective/vivarium-smoldyn
+      text: GitHub
 - header: Vivarium Project Template
   image: template-repo.png
   text: >-
