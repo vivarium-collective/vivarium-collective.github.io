@@ -10,6 +10,22 @@
       text: Documentation
     - link: https://github.com/vivarium-collective/vivarium-core
       text: GitHub
+- header: BioSimulators
+  image: biosimulators.png
+  text: >-
+    BioSimulators is a free registry of biosimulation tools. The simulators support a broad range
+    of frameworks (e.g., logical, kinetic), simulation algorithms (e.g., FBA, SSA), and formats
+    (e.g., BNGL, CellML, NeuroML/LEMS, SBML, Smoldyn). <code>BiosimulatorProcess</code> is a general-purpose
+    wrapper for Biosimulators that adds the Vivarium interface, and allows multiple Biosimulators
+    to be combined in hybrid simulations. <code>ODE_FBA</code> is a Composite simulator, that wires together
+    any ODE-based biosimulator with any FBA-based biosimulator.
+  buttons:
+    - link: https://biosimulators.org
+      text: BioSimulators
+    - link: https://github.com/vivarium-collective/vivarium-biosimulators
+      text: v-BioSimulators
+    - link: https://github.com/biosimulators/Biosimulators
+      text: BioSimulators GitHub
 - header: Chemotaxis
   name: Multiscale model of E. coli chemotaxis
   image: vivarium-chemotaxis.png
@@ -24,22 +40,6 @@
       text: GitHub
     - link: https://www.mdpi.com/1099-4300/22/10/1101
       text: Paper
-- header: BioSimulators
-  image: biosimulators.png
-  text: >-
-    BioSimulators is a free registry of biosimulation tools. The simulators support a broad range
-    of frameworks (e.g., logical, kinetic), simulation algorithms (e.g., FBA, SSA), and formats
-    (e.g., BNGL, CellML, NeuroML/LEMS, SBML, Smoldyn). <code>BiosimulatorProcess</code> is a general-purpose
-    wrapper for Biosimulators that adds the Vivarium interface, and allows multiple Biosimulators
-    to be combined in hybrid simulations. <code>ODE_FBA</code> is a Composite simulator, that wires together
-    any ODE-based biosimulator with any FBA-based biosimulator.
-  buttons:
-    - link: https://github.com/vivarium-collective/vivarium-biosimulators
-      text: GitHub
-    - link: https://biosimulators.org
-      text: BioSimulators Website
-    - link: https://github.com/biosimulators/Biosimulators
-      text: BioSimulators GitHub
 - header: Multibody
   image: vivarium-multibody.png
   text: >-
