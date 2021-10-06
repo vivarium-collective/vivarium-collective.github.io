@@ -3,8 +3,8 @@
   image: vivarium-core.png
   text: >-
     This is the heart of the Vivarium Collective. Its modular interface
-    allows for easy integration of systems biology models, and its
-    simulation engine can execute the resulting composite model.
+    allows for easy integration of systems biology simulation tools, and its
+    engine can execute the resulting integrative simulations.
   buttons:
     - link: https://vivarium-core.readthedocs.io/en/latest/index.html
       text: Documentation
@@ -29,8 +29,10 @@
   text: >-
     BioSimulators is a free registry of biosimulation tools. The simulators support a broad range
     of frameworks (e.g., logical, kinetic), simulation algorithms (e.g., FBA, SSA), and formats
-    (e.g., BNGL, CellML, NeuroML/LEMS, SBML, Smoldyn). Vivarium-BioSimulators provides a Process
-    that can load several of these simulators with models and wire them together in hybrid simulations.
+    (e.g., BNGL, CellML, NeuroML/LEMS, SBML, Smoldyn). <code>BiosimulatorProcess</code> is a general-purpose
+    wrapper for Biosimulators that adds the Vivarium interface, and allows multiple Biosimulators
+    to be combined in hybrid simulations. <code>ODE_FBA</code> is a Composite simulator, that wires together
+    any ODE-based biosimulator with any FBA-based biosimulator.
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-biosimulators
       text: GitHub
@@ -41,8 +43,8 @@
 - header: Multibody
   image: vivarium-multibody.png
   text: >-
-    <code>Lattice</code> is a composite model of a spatial environment in
-    which these cells can grow, divide, and interact -- through physical
+    <code>Lattice</code> is a composite simulator for spatial environments in
+    which cells can grow, divide, and interact -- through physical
     forces as well as by uptake and secretion of molecules in a shared
     chemical milieu. It includes the processes <code>Multibody</code> for
     solid-body multi-cell physics and <code>DiffusionField</code> for
@@ -88,8 +90,8 @@
   image: convenience_kinetics.png
   text: >-
     Convenience Kinetics is a generalized Michaelis-Menten-style enzyme
-    kinetics model, which can implement any enzymatic mechanism as a function
-    of the enzyme, substrates, cofactors, and competitors. This formulation
+    kinetics process, which can implement any enzymatic mechanism as a function
+    of the enzyme, substrates, co-factors, and competitors. This formulation
     is especially useful for generating rate laws for arbitrary chemical networks.
     <code>ConvenienceKinetics</code> is a process that takes stoichiometry and
     kinetic rates as parameters, generates the rate laws, and runs them.
