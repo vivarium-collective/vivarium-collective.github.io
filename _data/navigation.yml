@@ -2,5 +2,7 @@
   link: https://vivarium-core.readthedocs.io/en/latest/index.html
 - name: GitHub
   link: https://github.com/vivarium-collective
+- name: Tutorial
+  link: https://vivarium-core.readthedocs.io/en/latest/notebooks/Vivarium_interface_basics.html
 - name: bioRxiv
   link: https://www.biorxiv.org/content/10.1101/2021.04.27.441657v2
