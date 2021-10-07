@@ -3,8 +3,8 @@
   image: vivarium-core.png
   text: >-
     This is the heart of the Vivarium Collective. Its modular interface
-    allows for easy integration of systems biology simulation tools, and its
-    engine can execute the resulting integrative simulations.
+    allows for easy combination of systems biology models and simulators, which its
+    engine executes as integrative simulations.
   buttons:
     - link: https://vivarium-core.readthedocs.io/en/latest/index.html
       text: Documentation
