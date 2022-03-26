@@ -56,7 +56,8 @@
   image: bioscrape.png
   text: >-
     Bioscrape (Bio-circuit Stochastic Single-cell Reaction Analysis and Parameter Estimation)
-    -- a Python package that supports deterministic and stochastic simulations.
+    -- a Python package that supports deterministic and stochastic simulations of chemical 
+    reaction networks, specified by SBML.
   buttons:
     - link: https://github.com/vivarium-collective/vivarium-bioscrape
       text: GitHub
