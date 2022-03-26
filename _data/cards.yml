@@ -53,7 +53,7 @@
     - link: https://github.com/vivarium-collective/vivarium-multibody
       text: GitHub
 - header: Bioscrape
-  image: bioscrape-output.png
+  image: bioscrape.png
   text: >-
     Bioscrape (Bio-circuit Stochastic Single-cell Reaction Analysis and Parameter Estimation)
     -- a Python package that supports deterministic and stochastic simulations.
@@ -85,18 +85,6 @@
     - link: http://www.smoldyn.org/index.html
       text: Website
     - link: https://github.com/vivarium-collective/vivarium-smoldyn
-      text: GitHub
-- header: Convenience Kinetics
-  image: convenience_kinetics.png
-  text: >-
-    Convenience Kinetics is a generalized Michaelis-Menten-style enzyme
-    kinetics process, which can implement any enzymatic mechanism as a function
-    of the enzyme, substrates, co-factors, and competitors. This formulation
-    is especially useful for generating rate laws for arbitrary chemical networks.
-    <code>ConvenienceKinetics</code> is a process that takes stoichiometry and
-    kinetic rates as parameters, generates the rate laws, and runs them.
-  buttons:
-    - link: https://github.com/vivarium-collective/convenience-kinetics
       text: GitHub
 - header: Vivarium Project Template
   image: template-repo.png
