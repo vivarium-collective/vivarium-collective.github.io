@@ -23,9 +23,33 @@
     - link: https://biosimulators.org
       text: BioSimulators
     - link: https://github.com/vivarium-collective/vivarium-biosimulators
-      text: v-BioSimulators
+      text: vivarium-BioSimulators
     - link: https://github.com/biosimulators/Biosimulators
       text: BioSimulators GitHub
+- header: Cytosim
+  image: cytosim.png
+  text: >-
+    Cytosim is software for meso-scale simulations cytoskeleton behavior. Physics are described by Langevin 
+    equations that recreate the Brownian motion of the fibers and include bending elasticity, fiber–fiber 
+    interactions and external forces. Constraints are added to maintain the length of the fibers.
+  buttons:
+    - link: https://gitlab.com/f-nedelec/cytosim/-/blob/master/README.md
+      text: Cytosim
+    - link: https://github.com/vivarium-collective/vivarium-cytosim
+      text: vivarium-cytosim
+- header: MEDYAN
+  image: medyan.png
+  text: >-
+    Mechanochemical Dynamics of Active Networks (MEDYAN) is a software package for simulating active network 
+    growth and dynamics with a reactive coarse-grained force field method. It is intended to be generally 
+    applicable to model interactions of semi-flexible polymers embedded in solutions with complex 
+    reaction-diffusion processes. One early application is modeling contractile acto-myosin networks consisting 
+    of actin filaments, alpha-actinin, cross-linking proteins, and myosin IIA mini-filaments.
+  buttons:
+    - link: https://medyan.org
+      text: MEDYAN
+    - link: https://github.com/vivarium-collective/vivarium-MEDYAN
+      text: vivarium-medyan
 - header: Chemotaxis
   name: Multiscale model of E. coli chemotaxis
   image: vivarium-chemotaxis.png
