@@ -29,7 +29,7 @@
 - header: Cytosim
   image: cytosim.png
   text: >-
-    Cytosim is software for meso-scale simulations cytoskeleton behavior. Physics are described by Langevin 
+    Cytosim is software for meso-scale simulations of cytoskeleton behavior. Physics are described by Langevin 
     equations that recreate the Brownian motion of the fibers and include bending elasticity, fiber–fiber 
     interactions and external forces. Constraints are added to maintain the length of the fibers.
   buttons:
