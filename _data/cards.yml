@@ -26,6 +26,17 @@
       text: vivarium-BioSimulators
     - link: https://github.com/biosimulators/Biosimulators
       text: BioSimulators GitHub
+- header: ReaDDy
+  image: readdy.png
+  text: >-
+    ReaDDy is a particle-based reaction-diffusion simulator, with particle interaction potentials that permit 
+    space exclusion, molecular crowding and aggregation to be modeled. Subunits are represented as spheres, 
+    and molecules as a more complex geometries such as a domain structures or polymer chains.
+  buttons:
+    - link: https://readdy.github.io/index.html
+      text: ReaDDy
+    - link: https://github.com/vivarium-collective/vivarium-ReaDDy
+      text: vivarium-ReaDDy
 - header: Cytosim
   image: cytosim.png
   text: >-
