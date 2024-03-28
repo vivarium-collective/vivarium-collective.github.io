@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>Vivarium Collective</title>
+    <link rel="icon" type="image/svg" href="vlogo.svg"/>
+    <link rel="icon" type="image/png" href="vlogo.png"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/vlogo.svg"
+               alt="" width="35" height="35">
+          Vivarium Collective
+        </a>
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item">
+                <a class="nav-link active"
+                   href="https://vivarium-core.readthedocs.io/en/latest/index.html">Documentation</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link active"
+                   href="https://github.com/vivarium-collective">GitHub</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link active"
+                   href="https://vivarium-core.readthedocs.io/en/latest/tutorials/index.html">Tutorials</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link active"
+                   href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac049/6522109">Article</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container mt-4">
+      <h1>Welcome to the Vivarium Collective</h1>
+
+<!--      <div class="alert alert-danger" role="alert">-->
+<!--        <p>-->
+<!--          <b>WARNING:</b> This website is under construction.-->
+<!--        </p>-->
+<!--      </div>-->
+
+      <p>
+        The Vivarium Collective is a registry for open-source Vivarium-compatible simulation modules. These
+        can be wired together to generate novel multi-scale simulations, with the most appropriate
+        algorithm for each biological mechanism.
+      </p>
+
+      <h2>Featured Projects</h2>
+
+<!--      <div class="alert alert-primary" role="alert">-->
+<!--        <p>-->
+<!--          These projects may not be affiliated with the team that-->
+<!--          develops Vivarium Core, and the descriptions below have not-->
+<!--          been verified by the Vivarium Core Authors.-->
+<!--        </p>-->
+<!--      </div>-->
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Vivarium Core</h5>
+              
+              <img src="assets/card-imgs/vivarium-core.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Interface and Engine</h5>
+                <p class="card-text">
+                  This is the heart of the Vivarium Collective. Its modular interface allows for easy combination of systems biology models and simulators, which its engine executes as integrative simulations.
+                </p>
+                
+                  <a
+                    href="https://vivarium-core.readthedocs.io/en/latest/index.html"
+                    class="btn btn-primary"
+                    >Documentation</a>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-core"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">BioSimulators</h5>
+              
+              <img src="assets/card-imgs/biosimulators.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  BioSimulators is a free registry of biosimulation tools. The simulators support a broad range of frameworks (e.g., logical, kinetic), simulation algorithms (e.g., FBA, SSA), and formats (e.g., BNGL, CellML, NeuroML/LEMS, SBML, Smoldyn). <code>BiosimulatorProcess</code> is a general-purpose wrapper for Biosimulators that adds the Vivarium interface, and allows multiple Biosimulators to be combined in hybrid simulations. <code>ODE_FBA</code> is a Composite simulator, that wires together any ODE-based biosimulator with any FBA-based biosimulator.
+                </p>
+                
+                  <a
+                    href="https://biosimulators.org"
+                    class="btn btn-primary"
+                    >BioSimulators</a>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-biosimulators"
+                    class="btn btn-primary"
+                    >vivarium-BioSimulators</a>
+                
+                  <a
+                    href="https://github.com/biosimulators/Biosimulators"
+                    class="btn btn-primary"
+                    >BioSimulators GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">ReaDDy</h5>
+              
+              <img src="assets/card-imgs/readdy.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  ReaDDy is a particle-based reaction-diffusion simulator, with particle interaction potentials that permit  space exclusion, molecular crowding and aggregation to be modeled. Subunits are represented as spheres,  and molecules as a more complex geometries such as a domain structures or polymer chains.
+                </p>
+                
+                  <a
+                    href="https://readdy.github.io/index.html"
+                    class="btn btn-primary"
+                    >ReaDDy</a>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-ReaDDy"
+                    class="btn btn-primary"
+                    >vivarium-ReaDDy</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Cytosim</h5>
+              
+              <img src="assets/card-imgs/cytosim.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  Cytosim is software for meso-scale simulations of cytoskeleton behavior. Physics are described by Langevin  equations that recreate the Brownian motion of the fibers and include bending elasticity, fiber–fiber  interactions and external forces. Constraints are added to maintain the length of the fibers.
+                </p>
+                
+                  <a
+                    href="https://gitlab.com/f-nedelec/cytosim/-/blob/master/README.md"
+                    class="btn btn-primary"
+                    >Cytosim</a>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-cytosim"
+                    class="btn btn-primary"
+                    >vivarium-cytosim</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">MEDYAN</h5>
+              
+              <img src="assets/card-imgs/medyan.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  Mechanochemical Dynamics of Active Networks (MEDYAN) is a software package for simulating active network  growth and dynamics with a reactive coarse-grained force field method. It is intended to be generally  applicable to model interactions of semi-flexible polymers embedded in solutions with complex  reaction-diffusion processes. One early application is modeling contractile acto-myosin networks consisting  of actin filaments, alpha-actinin, cross-linking proteins, and myosin IIA mini-filaments.
+                </p>
+                
+                  <a
+                    href="https://medyan.org"
+                    class="btn btn-primary"
+                    >MEDYAN</a>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-MEDYAN"
+                    class="btn btn-primary"
+                    >vivarium-medyan</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Chemotaxis</h5>
+              
+              <img src="assets/card-imgs/vivarium-chemotaxis.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Multiscale model of E. coli chemotaxis</h5>
+                <p class="card-text">
+                  Vivarium Chemotaxis is a library for the model of <i>E. coli</i> chemotaxis. Its processes include <code>ReceptorCluster</code>, which models the activity of a chemoreceptor cluster, <code>MembranePotential</code> based on internal and external ion concentrations, and <code>FlagellaMotor</code>, which generates thrust and torque based on number of flagella and their motor states.
+                </p>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-chemotaxis"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+                  <a
+                    href="https://www.mdpi.com/1099-4300/22/10/1101"
+                    class="btn btn-primary"
+                    >Paper</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Multibody</h5>
+              
+              <img src="assets/card-imgs/vivarium-multibody.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  <code>Lattice</code> is a composite simulator for spatial environments in which cells can grow, divide, and interact -- through physical forces as well as by uptake and secretion of molecules in a shared chemical milieu. It includes the processes <code>Multibody</code> for solid-body multi-cell physics and <code>DiffusionField</code> for diffusion of molecular concentrations in 2D fields.
+                </p>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-multibody"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Bioscrape</h5>
+              
+              <img src="assets/card-imgs/bioscrape.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  Bioscrape (Bio-circuit Stochastic Single-cell Reaction Analysis and Parameter Estimation) -- a Python package that supports deterministic and stochastic simulations of chemical  reaction networks, specified by SBML.
+                </p>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-bioscrape"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">COBRA</h5>
+              
+              <img src="assets/card-imgs/COBRApy.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  <code>COBRA_FBA</code> is a wrapper process for the COBRApy FBA library, which can be loaded with BiGG models, and has been primarily used with BiGG model iAF1260b. The project includes <code>CobraComposite</code>, which adds auxiliary processes <code>MassDeriver</code> and <code>VolumeDeriver</code> to make a type of dynamic FBA. Other processes can constrain individual fluxes in <code>COBRA_FBA</code> through the <code>flux_bounds</code> port, allowing for a type of integrative FBA.
+                </p>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-cobra"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Smoldyn</h5>
+              
+              <img src="assets/card-imgs/smoldyn_banner.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  Smoldyn is a particle-based spatial stochastic simulator. Molecules are represented by point-like particles in 1-, 2-, or 3-dimensional continuous space. Molecules diffuse by Brownian motion, react when they collide into each other, and interact with surfaces in a variety of realistic ways.
+                </p>
+                
+                  <a
+                    href="http://www.smoldyn.org/index.html"
+                    class="btn btn-primary"
+                    >Website</a>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-smoldyn"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Vivarium Project Template</h5>
+              
+              <img src="assets/card-imgs/template-repo.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  This is a template repository, which can be used to start a new Vivarium project. It includes the module structure with example processes, composites, and experiments, and scripts to simplify the release of the project on PyPI.
+                </p>
+                
+                  <a
+                    href="https://github.com/vivarium-collective/vivarium-template"
+                    class="btn btn-primary"
+                    >GitHub</a>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="col">
+            <div class="card">
+              
+                <h5 class="card-header">Your Project</h5>
+              
+              <img src="assets/card-imgs/vivarium-avatar.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                  Want to add your project to the collective? Open a pull request! You can copy this card to get started.
+                </p>
+                
+                  <a
+                    href="https://example.com"
+                    class="btn btn-primary"
+                    >Website</a>
+                
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">
+          &copy; Copyright 2021 The Vivarium Authors.
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
